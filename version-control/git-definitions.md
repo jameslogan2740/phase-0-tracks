@@ -1,4 +1,4 @@
-# Git Definitions
+# Git Definitions - James Logan
 
 **Instructions: ** Define each of the following Git concepts.
 
