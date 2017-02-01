@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Details</title>
+</head>
+<body>
+	<h1>Product Details</h1>
+	<ul>
+		<li>Blue Laces</li>
+		<li>Comfortable</li>
+		<li>Life time warranty</li>
+	</ul>
+</body>
+</html>
