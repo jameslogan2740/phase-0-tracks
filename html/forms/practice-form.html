@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice Form</title>
+</head>
+<body>
+	<form action="success.html" method="post">
+		<h1>Which movie would you like to see and when?</h1>
+		<p>
+			<label>Full Name:</label>
+			<input name="fullname">
+		</p>
+		<p>
+			<label>Email:</label>
+			<input type="email" name="email">
+		</p>
+		<p>
+			<label>Password:</label>
+			<input type="password" name="password">
+		</p>
+		<p>
+			<label>Choose a date:</label>
+      		<input type="date" name="date">
+  		</p>
+		<p>
+			<label>Choose a movie:</label>
+			<select name="movie">
+		        <option value="fences">Fences</option>
+		        <option value="hidden-figures">Hidden Figures</option>
+		        <option value="arrival">Arrival</option>
+  			</select>
+		</p>
+		<p>
+			<textarea name="comments">Write any additional comments here.</textarea>
+		</p>
+		<button type="submit">Buy tickets</button>
+	</form>
+</body>
+</html>
