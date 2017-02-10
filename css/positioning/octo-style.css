@@ -1,0 +1,29 @@
+
+.glasses {
+	position: absolute;
+	top: 325px;
+	bottom: 10px;
+	right: 250px;
+	left: 350px;
+	width: 300px;
+}
+
+.hat {
+	position: absolute;
+	bottom: 10px;
+	top: 125px;
+	right: 0;
+	left: 365px;
+	width: 300px;
+
+}
+
+.body {
+	position: absolute;
+	top: 200px;
+	bottom: 10px;
+	right: 250px;
+	left: 350px;
+	width: 300px;
+
+}
