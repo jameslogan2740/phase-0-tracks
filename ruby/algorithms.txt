@@ -1,0 +1,49 @@
+**ELEVATOR ALOGRITHM**
+
+- Walk into known building
+- Locate elevator
+- Door to elevator open?  
+	- If no, wait for elevator door to open. 
+	- If yes, walk into elevator. 
+- Once in elevator, locate buttons. 
+	- If current task requires picking up groceries, press level 2.
+	- If current task does not require groceries, do not press level 2.
+	**
+	- If current task requires picking up medicine, press level 3.
+	- If current task does not require picking up medicine do not press level 3.
+	**
+	- If current task requires depositing cash, press level 4.
+	- If current task does not require depositing cash, do not press level 4.
+	**
+	- If current task requires picking up coffee, press level 5. 
+	- If current task does not require picking up coffee, do not press level 5.
+- Once appropriate level has been pressed, continue to floor and complete task. Once task has been completed, head back to elevator. 
+	- Door to elevator open?  
+		- If no, wait for elevator door to open. 
+		- If yes, walk into elevator. 
+- Once elevator has hit ground floor, walk out and head home. 
+———————————————————————————————————————————————————————————————————————————————————
+**MORNING ROUTINE**	
+- Wake up
+	-Did alarm go off? 
+		-if yes, get out of bed and proceed to next step. 
+		-if no, go back to sleep. 
+- Once awake & out of bed
+	-Go to kitchen. Is there coffee in pantry? 
+		-if yes, make coffee and set out travel mug. 
+		-if no, do not attempt to make coffee. 
+	-Go to bathroom. Did you shower the night before?
+		-if yes, skip to next step. 
+		-if no, take shower. 
+	-Go to sink in bathroom. 
+		- Put on deodarant
+		- Brush teeth
+	-Go to closet
+		- Pick out clothes to wear. Did you wear similar clothes the day before or earlier in the week? 
+			-If yes, pick something else out. 
+			-If no, put on clothes. 
+	-Go back to sink in bathroom
+		-Fix hair. 
+		-Put on cologne. 
+	-Go to kitchen and grab coffee, computer, and keys. 
+	-Leave apt, and lock door.
