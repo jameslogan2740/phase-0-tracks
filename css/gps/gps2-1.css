@@ -1,3 +1,26 @@
-h1 {
-	color: brown;
+.column-1{
+	background-color: blue;
+	display: inline-block;
+	width: 40%;
+	height: 1200px;
+	vertical-align: middle;
+	margin-left: 9%;
+	color: pink;
+
+}
+
+.column-2 {
+	background-color: pink;
+	display: inline-block;
+	width: 40%;
+	height: 1200px;
+	vertical-align: middle;
+	margin-right: 9%;
+	color: blue;
+}
+
+header {
+	background-color: yellow;
+	padding-bottom: 50px;
+	margin-bottom: 10px;
 }
