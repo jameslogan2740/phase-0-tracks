@@ -1,70 +1,54 @@
-airplane = {
-    first_class: {
-        pretty_name: 'First Class',
-        seat_info: {
-            total_seats: 6,
-            seats_available: 4
-        },
-        meals: [
-            "Leg of Pampered Lamb", 
-            "Kale Salad"
-        ]
+Bars={
+    bar_1: {
+        name: 'Pretty T', 
+        location: 'my imagination',
+        type: 'karaoke',
+        special: '$2 you call it every Monday', 
+        bartender: 'Taylor',
+        reasons_to_go: [
+            'sing',
+            'laugh at others singing',
+            'drink alcohol'],
     },
-    business_class: {
-        pretty_name: 'Business Class',
-        seat_info: {
-            total_seats: 12,
-            seats_available: 9
-        },
-        meals: [
-            "Sustainably Cultivated Lobster with Housemade Butter", 
-            "Kale Salad"
-        ]
+
+    bar_2: {
+        name: 'Highland',
+        location: '4th street',
+        type: 'gay bar', 
+        special: '$3 wells every Thursday',
+        bartender: 'Tom',
+        reasons_to_go: [
+            'Have fun with gay people',
+            'Dance w/o judegment',
+            'watch same sex couples make out'],
     },
-    coach: {
-        pretty_name: 'Coach',
-        seat_info: {
-            total_seats: 50,
-            seats_available: 23
-        },
-        meals: []
-    }
+
+    bar_3: {
+        name: 'Handlebar',
+        location: '5th street',
+        type: 'low key hipster',
+        special: '$1 brauts on Sundays',
+        bartender: 'Mr. Handlebar', 
+        reasons_to_go: [],
+
+    },
+
+    bar_4: {},
+    bar_5: {},
+    bar_6: {},
+    
 }
 
-# 1.
-# Guess the return value of this line:
 
-# airplane[:first_class][:pretty_name]
+#print name of bar_2
+p Bars[:bar_2][:name]
 
-# Then uncomment the line above and check your guess.
+#add reasons to go to bar_3
+p Bars[:bar_3][:reasons_to_go].push("Witness bartenders with handlebar mustaches.")
 
-# 2.
-# Guess the return value of this line:
+#Change "watch same sex couples make out" to something different
+p Bars[:bar_2][:reasons_to_go][2] = 'Watch a drag performance.'
 
-# airplane[:business_class][:meals]
 
-# Then uncomment the line above and check your guess.
 
-# 3.
-# Guess the return value of this line:
 
-#airplane[:business_class][:meals][1]
-
-# Then uncomment the line above and check your guess.
-
-# 4.
-# How will this line affect the data structure?
-
-# airplane[:coach][:meals].push("Sad Plastic Tray of Corn")
-
-# Uncomment the lines above and check your guess by adding a line that prints the new data structure.
-
-# 5.
-# How would you reverse the meals list in First Class?
-
-# Add a line of code that does that here.
-#airplane [:first_class].reverse_each
-# 6.
-# How would you lowercase the pretty name of one of the classes?
-airplane [:coach][:pretty_name].downcase
-# Add a line of code that does that here.
